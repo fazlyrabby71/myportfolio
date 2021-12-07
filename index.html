@@ -21,6 +21,15 @@
         hr.new1 {
             border-top: 2px solid;
         }
+        .zoom {
+            transition: transform .2s; 
+        }
+
+        .zoom:hover {
+            -ms-transform: scale(2); /* IE 9 */
+            -webkit-transform: scale(2); /* Safari 3-8 */
+            transform: scale(2); 
+        }
     </style>
 </head>
 
@@ -255,14 +264,14 @@
             <!-- Grid for photos -->
             <div class="w3-row-padding" style="margin:0 -16px">
                 <div class="w3-half">
-                    <img src="images/STRICT.png" style="width:100%">
-                    <img src="images/JobNTask.png" style="width:100%">
+                    <img src="images/STRICT.png" style="width:100%" class="zoom">
+                    <img src="images/JobNTask.png" style="width:100%" class="zoom">
                     <!--        <img src="sailboat.jpg" style="width:100%">-->
                 </div>
 
                 <div class="w3-half">
-                    <img src="images/ACTIVE_BOX.png" style="width:100%">
-                    <img src="images/Meals_Panda.png" style="width:100%">
+                    <img src="images/ACTIVE_BOX.png" style="width:100%" class="zoom">
+                    <img src="images/Meals_Panda.png" style="width:100%" class="zoom">
                     <!--
         <img src="wedding.jpg" style="width:100%">
         <img src="p6.jpg" style="width:100%">
