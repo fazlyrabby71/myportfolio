@@ -42,6 +42,11 @@ h6 {
     /* IE 9 */
     -webkit-transform: scale(1.5);
     /* Safari 3-8 */
+    -moz-transform: scale(1.5);
+    /* Mozilla */
+    -o-transform: scale(1.5);
+    /* Opera */
+    transform-origin: scale(1.5);
     transform: scale(1.5);
 }
 
